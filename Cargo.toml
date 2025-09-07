@@ -1,0 +1,8 @@
+[package]
+name = "md2notability"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+comrak = "0.15"
+printpdf = "0.3"

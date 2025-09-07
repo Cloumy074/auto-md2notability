@@ -1,0 +1,38 @@
+# Rust specific ignores
+/target/
+**/*.rs.bk
+Cargo.lock
+*.pdb
+target/
+
+# IntelliJ IDEA specific ignores
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+out/
+
+# Debug files
+debug/
+debug.log
+
+# Dependencies
+vendor/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# Backup files
+*.swp
+*~
+*.bak
